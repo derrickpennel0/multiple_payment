@@ -19,7 +19,11 @@ function InputField({
         whiteSpace: "nowrap",
       }}
     >
-      <label style={{ width: labelWidth, fontSize: "90%" }}>{label}</label>
+      <label style={{ width: labelWidth, fontSize: "90%" }}>
+        {label}
+        {required === true ? <span style={{ color: "red" }}> *</span> : null}
+      </label>
+
       <input
         type={type}
         className="inputField"
