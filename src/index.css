@@ -1,0 +1,65 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  margin: 0;
+
+}
+
+
+
+/*All modal and component styling*/
+/* Input Field */
+.inputField {
+  outline: 1px solid rgb(157, 157, 157);
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  font-size: 90%;
+  padding-left: 7px;
+}
+
+.inputField:focus {
+  outline: 1.5px solid rgb(131, 184, 255);
+  border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button {
+  overflow: hidden;
+  position: relative
+}
+
+.button:after {
+  content: "";
+  background: rgb(143, 214, 255);
+  border-radius:100px;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -120px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
