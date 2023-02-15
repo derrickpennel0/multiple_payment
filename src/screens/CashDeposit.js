@@ -1,23 +1,13 @@
-import React  from "react";
+import React from "react";
+import HeaderComponent from "../components/header/HeaderComponent";
 
 function CashDeposit() {
   return (
-    <>
-      <div className="borderR">haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-      <div>haloooo</div>
-    </>
+    <div>
+      <div className="cash__deposit">
+        <HeaderComponent />
+      </div>
+    </div>
   );
 }
 
