@@ -7,13 +7,14 @@ function HeaderComponent({ icon, title }) {
         style={{
           display: "flex",
           alignItems: "center",
-          padding: "5px",
+          padding: "4px",
           color: "white",
           backgroundColor: "rgb(21 163 183)",
           fontSize: "20px",
+          textTransform: 'uppercase'
         }}
       >
-        <div>{icon}</div>
+        <div style={{marginRight: '10px', marginBottom: '5px'}}>{icon}</div>
         {title}
       </div>
     </div>
