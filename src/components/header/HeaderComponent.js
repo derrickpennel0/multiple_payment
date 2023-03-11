@@ -7,6 +7,7 @@ function HeaderComponent({ icon, title }) {
         style={{
           display: "flex",
           alignItems: "center",
+          justifyContent:"center",
           width: '100%',
           padding: "5px",
           color: "white",

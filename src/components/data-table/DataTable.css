@@ -1,0 +1,14 @@
+@media only screen and (max-width: 420px) {
+   /* .table_title_header{
+    width: 100%;
+   } */
+   .box_container{
+    margin-left: 5px !important;
+    width: 100%;
+
+   }
+}
+  @media screen and (min-width: 500px) and (max-width: 1300px) {
+    
+    
+  }

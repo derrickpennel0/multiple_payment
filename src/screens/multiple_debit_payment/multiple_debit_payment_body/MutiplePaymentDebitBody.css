@@ -1,0 +1,285 @@
+/* .multiple_debit_payment{
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxsJHT0ebpf-YL2Aaat7O1K9nfi_UpNa9pqA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+} */
+
+.disabledColoredInputField{
+  padding-right:3px;
+}
+
+
+.mutiple_payment_debit_body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.left_card_div,.right_card_div,.datatable_div{
+  box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -moz-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  border-radius: 5px;
+  background-color: white;
+}
+
+ @media only screen and (max-width: 300px){
+.three_buttons{
+  display: grid !important;
+  gap: 10px;
+}
+} 
+
+@media only screen and (max-width: 420px) {
+  .left_div_nothing,
+  .right_div_nothing,.dummy_div {
+    display: none;
+
+  }
+  /* .middle_div_container{
+    background-color: red;
+  } */
+  .container_with_terminal_ID_and_others{
+    /* background-color: aqua; */
+display: grid !important;   
+  }
+  /* LABEL AND INPUT DIVS */
+  .input_field_and_label_div,.lov_with_label_div,.text_area_div{
+    width: 100% !important;
+    display: grid !important;
+}
+
+/* lABELS */
+.input_field_label,.lov_with_label_div,.text_area_label{
+width: 100% !important;
+}
+/* INPUT FIELDS */
+.inputField,.disabledColoredInputField,#lov_field{
+  /* background-color: blueviolet !important; */
+  width: 100% !important;
+}
+.form_div{
+  /* background-color: blue !important; */
+flex-direction: column;
+gap:10px;
+}
+/* .left_card_div{
+  background-color: yellowgreen !important;
+} */
+
+/* .left_column_div{
+  background-color: rgb(72, 81, 54) !important;
+
+} */
+
+/* ORDERING BBAN */
+
+.ordering_bban_div{
+/* background-color: chocolate; */
+display: grid !important;
+}
+.ordering_bban_sub_div{
+/* background-color: black; */
+flex: 1 !important;
+
+}
+.ordering_bban_disabled_field_inner_div{
+  /* background-color: green; */
+  flex: 1;
+  /* padding: 0px 10px; */
+}
+.ordering_bban_disabled_field{
+  padding-left: 0px !important;
+}
+
+/* EFFECTIVE DATE AND DOC REF */
+.effective_date_and_doc_ref_div{
+  /* background-color: black; */
+display: grid !important;
+}
+.doc_ref_inner_div{
+  padding-left: 0px !important;
+}
+
+/* AMOUNT AND TRANSTYPE */
+.amount_and_trans_type_div{
+  display: grid !important;
+  
+}
+.trans_type_inner_div{
+  padding-left: 0px !important;
+  
+}
+/* DOC/ TOKEN REF, VIEW DOCUMENT AND SIGN VER */
+.doc_token_ref_and_viewdoc_signver_div{
+  /* background-color: aqua; */
+  display: grid !important;
+}
+.doc_token_ref_and_viewdoc_div{
+  display: grid !important;
+
+}
+.viewdoc_div{
+  width: 41%;
+place-self: center;
+margin-bottom: 10px;
+}
+.signver_inner_div{
+  padding-left: 3px !important;
+margin-bottom: 10px;
+
+}
+
+
+  /* .container_with_terminal_ID_and_others {
+     padding: 0px 10px;
+   /* }
+.input_field_label_div,.text_area_div,.lov_label_div{
+  /* background-color: grey; */
+  /* display:grid !important; */
+/* }
+  .left_card_div{
+    background-color: blue;
+    padding-left: 0px !important; */
+    /* flex-direction: column !important; */
+  /* }  */
+ /* .effective_date_and_doc_ref_div{
+   width: 100% !important;
+    background-color: aqua;
+flex-direction: column !important;
+ }
+ 
+ .effective_date_div,.doc_ref_div{
+  width: 100% !important;
+
+ }
+
+.doc_ref_inner_div{
+  padding-left: 0px !important;
+
+ }
+ .amount_and_trans_type_div{
+   width: 100% !important;
+   background-color: aqua;
+   flex-direction: column !important; */
+
+ /* } */
+ /* .amount_div,.trans_type_div{
+   width: 100% !important;
+
+
+ }
+.trans_type_inner_div{
+  padding-left: 0px !important;
+
+}
+.left_column_div{
+    background-color: blue;
+    flex-direction: column;
+    width: 100% !important;
+  } */
+  /* .input_field_label,.inputField,.disabledColoredInputField,.lov_with_label,.text_area_label{
+    background-color: black;
+    width: 100% !important;
+  }
+
+
+  #lov_field{
+    width: 100%;
+    /* background-color: red !important; */
+  /* }  */
+  /* .right_card_div{
+    justify-content: flex-start !important;
+    width: 100% !important;
+  }
+  .right_card_inner_div{
+    flex: 1 !important;
+  }
+  .ordering_bban_div{
+  background-color: greenyellow !important;
+  flex-direction: column !important;
+  
+}
+.ordering_bban_sub_div,.ordering_bban_disabled_field_inner_div{
+  flex: 1 !important;
+  background-color: red;
+    width: 100% !important;
+}
+.ordering_bban_disabled_field{
+  padding-left: 0px !important;
+}
+
+.doc_token_ref_and_viewdoc_signver_div,.doc_token_ref_and_viewdoc_div{
+  flex-direction: column;
+     width: 100% !important;
+
+}
+.viewdoc_div{
+  /* background-color: grey; */
+  /* padding-left: 30% !important;
+  width: 69.9%;
+  display: flex !important;
+  justify-content: center !important;
+}  */
+/* .signver_div{
+  flex:1 !important;
+  width: 100% !important;
+  justify-content: flex-start !important;
+  margin-top: 10px;
+
+
+}
+.signver_inner_div{
+justify-content: center !important;
+  flex:1 !important;
+width: 100% !important;
+padding: 0px !important;
+  margin-bottom: 20px;
+
+}  */
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1300px) {
+  .left_div_nothing,
+  .right_div_nothing {
+    display: none;
+    /* background-color: pink; */
+  }
+
+.container_with_terminal_ID_and_others {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+  .form_div{
+    /* background-color: red; */
+    flex-direction: column;
+  }
+  .left_card_div{
+    column-gap: 20px;
+  
+}
+
+.left_card_div,.right_card_div{
+    margin-top: 20px;
+
+  }
+  .right_card_div,.datatable_div{
+    padding: 2.8px;
+  }
+  /* .form_div{
+    background-color: red;
+  } */
+  .left_card_div{
+    /* background-color: blue; */
+    width: 100% !important;
+  }
+  /* .left_column_div{
+    background-color: pink;
+  } */
+  /* .input_field_label{
+background-color: teal;
+  } */
+  
+}

@@ -11,7 +11,7 @@ function SelectField({ labelWidth, inputWidth, label, description }) {
         whiteSpace: "nowrap",
       }}
     >
-      <label style={{ width: labelWidth, fontSize: "90%" }}>{label}</label>
+      <label className="select_field_label" style={{ width: labelWidth, fontSize: "90%" }}>{label}</label>
       <select
         className="inputField"
         style={{ width: inputWidth, color: "#595959" }}
